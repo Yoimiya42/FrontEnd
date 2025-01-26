@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<lang="en">
+<html>
+    <head>
+        <title>Web Foundation1</title>
+    </head>
+    <body>
+
+        <p>A web technology stack consists of three components:</p>
+        <ul> <!--unordered list-->
+            <li><b>HTML</b>(HyperText Markup Language):       structure & content</li>
+            <li><b>CSS</b>(Cascading Style Sheet):            style</li>
+            <li><b>JavaScript</b>:                            behaviour logic</li>
+        </ul>
+ 
+
+        <h1>HTTP: HyperText Transfer Protocol (server-client request-response protocol) </h1>
+        <h2>Request methods:</h2> 
+        <ul>
+            <li><b>GET</b>: retrieve data from server</li>
+            <li><b>POST</b>: send data to server</li>
+        </ul>
+        
+        <h2>HTTP Request Structure: </h2>
+        <ul>
+            <li><b>Request Line</b><li>
+                <ul>
+                    <li> Request method</li>
+                    <li> Request URL (with query strings)</li>
+                    <li> Protocol version(e.g. HTTP/1.1 HTTP/2.0)</li>
+                </ul>
+            <li><b>Request Header</b></li>
+                <ul>
+                    <li> Host (e.g. www.google.com)</li>
+                    <li> User-Agent (e.g. browser- type,version...)</li>
+                    <li> Accept (indicating the media type that the client can understand)</li>
+                        <ul>
+                            <li> text/html ->HTML</li>
+                            <li> application/json -> JSON</li>
+                            <li> */* -> any type</li>
+                        </ul>
+                </ul>
+            <li><b>Request Body</b></li>
+                <ul>
+                    <li> data to be sent to the server</li>
+                </ul>
+        </ul>
+
+        <h2>HTTP Response Structure: </h2>
+        <ul>
+            <li><b>Status Line</b></li>
+                <ul>
+                    <li> Protocol version</li>
+                    <li> Status code</li>
+                        <ul>
+                            <li>200:OK</li>
+                            <li>301: Moved permanently, need to redirect</li>
+                            <li>401: Unauthorized</li>
+                            <li>404: Not found</li>
+                            <li>503: Server Unavailable</li>
+                        </ul>
+                </ul>
+            <li><b>Response header</b></li>
+                <ul>
+                    <li> Date</li>
+                    <li> Content-Type and Encoding format</li>
+                </ul>
+            <li><b>Response body</b></li>
+                <ul>
+                    <li> if content type is text/html, then it is HTML content</li>
+                </ul>
+        </ul>
+        
+    </body>
+</html>
