@@ -7,7 +7,7 @@
 `<!DOCTYPE html>` Define the document type  
 
 `<html>` Root element of an HTML page  
----
+--
 
 `<head>` Contains meta-information about the document  
 
@@ -15,7 +15,7 @@
 `<link>`   Includes CSS stylesheets
 `<script>` Used to add JavaScript to a page (can be used in body as well)
 
----
+--
 
 `<body>` Contains the visible page content  
 `<h1> to <h6>` Heading tags  
